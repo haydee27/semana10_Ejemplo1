@@ -1,0 +1,9 @@
+CREATE DATABASE bd_recurso_humano;
+
+Use bd_recurso_humano;
+
+CREATE TABLE tb_personas (
+    dui_persona varchar(10) DEFAULT null,
+    apellidos_persona varchar(30) DEFAULT null,
+    nombres_persona varchar(30) DEFAULT null,
+    PRIMARY key(dui_persona))
